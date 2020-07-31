@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: black;
+  padding: 4px;
+  letter-spacing: 1px;
+  color:white;
+  font-size:10px;
+  
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+
+
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  z-index: 2;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#navbar a {
+  
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 5px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: blue;
+  border-bottom: 2px solid blue;
+  border-spacing: 10px;
+  
+}
+
+#navbar a.active {
+  background-color: white;
+  color: blue;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + section {
+  padding-top: 60px;
+}
+.firstimage {
+   position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+}
+.beta {
+  border-radius: 4px;
+  background-color: yellow;
+  color: black;
+  padding: 3px;
+  float: 
+}
+.valuation {
+  background-color:#edeff2;
+  position: relative;
+  text-align: center;
+}
+.expert {
+  position: relative;
+  width: 700px;
+  height: 210px;
+  left: 375px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 4px 1px rgba(64,63,64,0.19);
+  bottom: 50px;
+}
+.expert button {
+  color: white;
+  background-color: #0277bd;
+  border: none;
+  padding: 7px;
+}
+.col-md-5 a:hover {
+text-decoration: none;
+}
+.whyvaluation {
+top: 50px;
+}
+.heading3 {
+  text-align: center;
+  color: #0277bd; 
+   font-weight: bold;
+}
+section {
+  text-align: center;
+}
+
+
+
+
+
+
+.wrapper{
+  width:70%;
+  text-align: left;
+}
+@media(max-width:992px){
+ .wrapper{
+  width:100%;
+} 
+}
+.panel-heading {
+  padding: 0px;
+  border:none;
+}
+.panel-title>a, .panel-title>a:active{
+  display:block;
+  padding:15px;
+  color:#555;
+  
+  
+  
+  letter-spacing:1px;
+  word-spacing:3px;
+  text-decoration:none;
+}
+.panel-title>a:hover {
+  text-decoration: none;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+}
+.panel-heading.active a:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+} 
+
+footer {
+  background-color: #332c2c;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.heading5 {
+  color: white;
+  font-weight: bold;
+}
+.input{
+width: 100%;
+color: black;
+padding: 5px;
+border: none;
+border-radius: 5px;
+}
+.butn {
+width: 100%;
+background-color: #f6700f;
+border-radius: 5px;
+border: none;
+padding: 5px;
+}
+.follow i {
+  font-size: 35px;
+  padding: 10px;
+}
+.follow a {
+  color: white;
+}
+.follow a:hover {
+  color: white;
+}
